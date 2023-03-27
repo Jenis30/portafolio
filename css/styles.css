@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'lobster', sans-serif;
+}
+
+p,li,a,label,input,textarea,select,table{
+    font-family: 'Lobster Two', sans-serif;
+}
+
+/* Variables de css */
+
+:root{
+    --font-title: 'lobster', sans-serif;   
+    --font-texts: 'Lobster Two', sans-serif;
+    --size-titles: 40px;
+    --size-texts: 40px;
+    --color-white: #0a0a0a;
+}
+ 
+.blue{
+    margin-top: 0%;
+}
+
+.bg-portafolio{
+    background: #f1a1ed;
+    
+}
+
+
+nav ul li{
+    margin: 100 px;
+    background:var(--bg-body);
+}
+
+nav ul li a{
+    color: var(--color-white)!important;
+    position: relative;
+    font-size: 20px;
+
+}
+
+header .hero-right h2{
+    font-family: var(--font-texts);
+    font-size: 50px;
+    text-align: center;
+}
+
+header .hero-foto img{
+    margin-left: 90px;
+    border: #0a0a0a solid 5px;
+    margin-right: 100px;
+}
+
+.analisis{
+    margin-right: 65%;
+   
+}
+
+header .hero-right p{
+    font-size: 28px;
+}
+
+header .hero-borde{
+    background-color: #f1a1ed;
+}
+
+header .hero-right{
+    padding-left: 120px;
+    padding-top: 100px;
+    padding-right: 120px;
+}
+
+div .hero-borde{
+border-left: #0a0a0a solid 5px;
+border-bottom: #0a0a0a solid 2px;
+}
+
+
+
+ #estudios{
+    width: 100%;
+    position: relative;
+    padding: 90px 0 ;
+    text-align: center;
+}
+
+#estudios h2{
+    color: black;
+    font-size: var(--fontSise-title);
+    font-weight: 700;
+}
+
+#estudios p{
+    color: black;
+    font-size: var(--fontSise-parrafos);
+}
+
+#estudios .row{
+padding-top: 70px;
+}
+
+#estudios .card-services{
+    background: #f1a1ed;
+    border-radius: 4px;
+    position: relative;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    text-align: left;
+    transition: .4s;
+    max-width: 280px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+#estudios .card-services:hover{
+    background: var(--primary-color);
+}
+
+#estudios .card-services img{
+background: #fff;
+width: 70px;
+padding:15px;
+border-radius:4px;
+position: absolute;
+top: -30px;
+left: 30px;
+}
+
+#estudios .card-services h3{
+    text-align: right;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#estudios .card-services h4{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#estudios .card-services p{
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+#studios .card-services a{
+    color: black;
+    text-align: left;
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 2px solid #c6c6c6;
+}
+
+
+
+#habilidades{
+    width: 100%;
+    position: relative;
+    padding: 90px 0 ;
+    text-align: center;
+}
+
+#habilidades h2{
+    color: black;
+    font-size: var(--fontSise-title);
+    font-weight: 700;
+}
+
+#habilidades p{
+    color: black;
+    font-size: var(--fontSise-parrafos);
+}
+
+#habilidades .row{
+padding-top: 70px;
+}
+
+#habilidades .card-services{
+    background: #f1a1ed;
+    border-radius: 4px;
+    position: relative;
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    text-align: left;
+    transition: .4s;
+    max-width: 280px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+#habilidades .card-services:hover{
+    background: var(--primary-color);
+}
+
+#habilidades .card-services img{
+background: #fff;
+width: 70px;
+padding:15px;
+border-radius:4px;
+position: absolute;
+top: -30px;
+left: 30px;
+}
+
+#habilidades .card-services h3{
+    text-align: right;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#habilidades .card-services h4{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#habilidades .card-services p{
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+#habilidades .card-services a{
+    color: black;
+    text-align: left;
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 2px solid #c6c6c6;
+}
+
+
+#Habilidades{
+    width: 100%;
+    position: relative;
+    padding: 40px 0;
+    text-align: center;
+    
+}
+
+#Proyecto{
+    width: 100%;
+    position: relative;
+    padding: 40px 0;
+    text-align: center;
+    
+}
